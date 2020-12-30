@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml-stylesheet type="text/xsl" href="petshop.xsl"?>
+
 <petShopServices>
     <section name="Grooming">
         <entree>
@@ -25,6 +27,8 @@
             <ownerName>Fred</ownerName>
             <ownerPhone>0885859587</ownerPhone>
         </entree>
+        
+        
     </section>
 
     <section name="Blood Test + Chipping">
@@ -32,6 +36,13 @@
             <petName>Meleca</petName>
             <animalType>Cat</animalType>
             <ownerName>Lucia</ownerName>
+            <ownerPhone>0838746592</ownerPhone>
+        </entree>
+
+        <entree>
+            <petName>Jean</petName>
+            <animalType>Viado</animalType>
+            <ownerName>chora+</ownerName>
             <ownerPhone>0838746592</ownerPhone>
         </entree>
     </section>
