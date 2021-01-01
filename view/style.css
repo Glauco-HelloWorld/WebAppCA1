@@ -68,6 +68,13 @@ form {
     font-size: 0.9rem
 }
 
+h3 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	color: rgb(245, 245, 245);
+	text-align: center;
+}
+
 .form-control {
     background-color: #222222;
     border: 1px solid #545454

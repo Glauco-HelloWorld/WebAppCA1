@@ -1,49 +1,47 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <?xml-stylesheet type="text/xsl" href="petshop.xsl"?>
 
-<petShopServices>
-    <section name="Grooming">
-        <entree>
+<petShopServices xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="petshop.xsd"> 
+    <service name="Grooming">
             <petName>Lulinha</petName>
             <animalType>Dog</animalType>
             <ownerName>Paulo</ownerName>
             <ownerPhone>0838884408</ownerPhone>
-        </entree>
-    </section>
+    </service>
 
-    <section name="Vaccinate">
-        <entree>
-            <petName>Tirulipa</petName>
+    <service name="Vaccinate">
+        <petName>Tirulipa</petName>
             <animalType>Dog</animalType>
             <ownerName>Johny</ownerName>
             <ownerPhone>0838847842</ownerPhone>
-        </entree>
-    </section>
+       
+    </service>
 
-    <section name="Castrate">
-        <entree>
+    <service name="Castrate">
+       
             <petName>Matuzalém</petName>
             <animalType>Dog</animalType>
             <ownerName>Fred</ownerName>
             <ownerPhone>0885859587</ownerPhone>
-        </entree>
-        
-        
-    </section>
+       
+     </service>
 
-    <section name="Blood Test + Chipping">
-        <entree>
+    <service name="Blood Test + Chipping">
+       
             <petName>Meleca</petName>
             <animalType>Cat</animalType>
             <ownerName>Lucia</ownerName>
             <ownerPhone>0838746592</ownerPhone>
-        </entree>
+      
+    </service>
 
-        <entree>
-            <petName>Jean</petName>
-            <animalType>Viado</animalType>
-            <ownerName>chora+</ownerName>
+      <service name="Blood Test + Chipping">
+       
+            <petName>ABC</petName>
+            <animalType>CDE</animalType>
+            <ownerName>LMN</ownerName>
             <ownerPhone>0838746592</ownerPhone>
-        </entree>
-    </section>
+       
+    </service>
 </petShopServices>

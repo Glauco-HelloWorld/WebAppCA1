@@ -58,7 +58,7 @@
                         </th>
                         <tbody>
 
-                            <xsl:for-each select="/petShopServices/section/entree">
+                            <xsl:for-each select="/petShopServices/service">
                                 <tr>
                                     <td>
                                         <xsl:value-of select="petName" />
